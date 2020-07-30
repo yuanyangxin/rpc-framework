@@ -8,7 +8,7 @@ import java.net.InetSocketAddress;
 /**
  * 基于 zookeeper 实现服务注册
  *
- * @author shuang.kou
+ * @author Yuan Yangxin
  * @createTime 2020年05月31日 10:56:00
  */
 @Slf4j

@@ -15,7 +15,7 @@ import java.io.ByteArrayOutputStream;
 /**
  * Kryo序列化类，Kryo序列化效率很高，但是只兼容 Java 语言
  *
- * @author shuang.kou
+ * @author Yuan Yangxin
  * @createTime 2020年05月13日 19:29:00
  */
 @Slf4j

@@ -16,7 +16,7 @@ import java.util.concurrent.CompletableFuture;
 /**
  * 基于 Netty 传输 RpcRequest。
  *
- * @author shuang.kou
+ * @author Yuan Yangxin
  * @createTime 2020年05月29日 11:34:00
  */
 @Slf4j

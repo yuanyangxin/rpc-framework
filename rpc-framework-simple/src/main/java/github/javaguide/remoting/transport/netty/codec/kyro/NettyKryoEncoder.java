@@ -11,7 +11,7 @@ import lombok.AllArgsConstructor;
  * <p>
  * 网络传输需要通过字节流来实现，ByteBuf 可以看作是 Netty 提供的字节数据的容器，使用它会让我们更加方便地处理字节数据。
  *
- * @author shuang.kou
+ * @author Yuan Yangxin
  * @createTime 2020年05月25日 19:43:00
  */
 @AllArgsConstructor

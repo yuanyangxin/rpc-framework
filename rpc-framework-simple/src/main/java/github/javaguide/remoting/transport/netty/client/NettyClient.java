@@ -23,7 +23,7 @@ import java.util.concurrent.CompletableFuture;
 /**
  * 用于初始化 和 关闭 Bootstrap 对象
  *
- * @author shuang.kou
+ * @author Yuan Yangxin
  * @createTime 2020年05月29日 17:51:00
  */
 @Slf4j

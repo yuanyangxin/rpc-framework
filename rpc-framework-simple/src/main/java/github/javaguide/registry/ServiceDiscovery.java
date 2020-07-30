@@ -5,7 +5,7 @@ import java.net.InetSocketAddress;
 /**
  * 服务发现接口
  *
- * @author shuang.kou
+ * @author Yuan Yangxin
  * @createTime 2020年06月01日 15:16:00
  */
 public interface ServiceDiscovery {

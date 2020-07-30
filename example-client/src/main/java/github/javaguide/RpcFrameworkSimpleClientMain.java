@@ -5,7 +5,7 @@ import github.javaguide.proxy.RpcClientProxy;
 import github.javaguide.remoting.transport.socket.SocketRpcClient;
 
 /**
- * @author shuang.kou
+ * @author Yuan Yangxin
  * @createTime 2020年05月10日 07:25:00
  */
 public class RpcFrameworkSimpleClientMain {

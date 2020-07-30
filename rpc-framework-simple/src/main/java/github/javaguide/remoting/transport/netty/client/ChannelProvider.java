@@ -11,7 +11,7 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * 用于获取 Channel 对象
  *
- * @author shuang.kou
+ * @author Yuan Yangxin
  * @createTime 2020年05月29日 16:36:00
  */
 @Slf4j

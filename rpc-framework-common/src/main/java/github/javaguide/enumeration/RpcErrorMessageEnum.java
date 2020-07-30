@@ -5,7 +5,7 @@ import lombok.Getter;
 import lombok.ToString;
 
 /**
- * @author shuang.kou
+ * @author Yuan Yangxin
  * @createTime 2020年05月12日 16:45:00
  */
 @AllArgsConstructor

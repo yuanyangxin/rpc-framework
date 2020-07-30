@@ -3,7 +3,7 @@ package github.javaguide.exception;
 import github.javaguide.enumeration.RpcErrorMessageEnum;
 
 /**
- * @author shuang.kou
+ * @author Yuan Yangxin
  * @createTime 2020年05月12日 16:48:00
  */
 public class RpcException extends RuntimeException {

@@ -5,7 +5,7 @@ import java.net.InetSocketAddress;
 /**
  * 服务注册接口
  *
- * @author shuang.kou
+ * @author Yuan Yangxin
  * @createTime 2020年05月13日 08:39:00
  */
 public interface ServiceRegistry {

@@ -5,7 +5,7 @@ import github.javaguide.remoting.transport.ClientTransport;
 import github.javaguide.remoting.transport.netty.client.NettyClientTransport;
 
 /**
- * @author shuang.kou
+ * @author Yuan Yangxin
  * @createTime 2020年05月10日 07:25:00
  */
 public class NettyClientMain {

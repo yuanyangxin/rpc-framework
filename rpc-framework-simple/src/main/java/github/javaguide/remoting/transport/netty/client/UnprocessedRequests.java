@@ -9,7 +9,7 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * 未处理的请求。
  *
- * @author shuang.kou
+ * @author Yuan Yangxin
  * @createTime 2020年06月04日 17:30:00
  */
 public class UnprocessedRequests {

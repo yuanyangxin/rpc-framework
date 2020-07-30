@@ -5,7 +5,7 @@ import github.javaguide.remoting.dto.RpcRequest;
 /**
  * 传输 RpcRequest。
  *
- * @author shuang.kou
+ * @author Yuan Yangxin
  * @createTime 2020年05月29日 13:26:00
  */
 public interface ClientTransport {

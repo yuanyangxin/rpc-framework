@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * 获取单例对象的工厂类
  *
- * @author shuang.kou
+ * @author Yuan Yangxin
  * @createTime 2020年06月03日 15:04:00
  */
 public final class SingletonFactory {
