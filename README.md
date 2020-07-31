@@ -1,6 +1,6 @@
 # 简易RPC框架 Self-RPC
 
-项目架构：N ett y + Ky ro + Zookeeper 
+项目架构：Netty + Kyro + Zookeeper 
 
 项目描述：从0实现RPC框架，实现了RPC框架的远程调用，序列化、负载均衡的功能，项目目前还在维护中 
 
@@ -20,10 +20,10 @@
 
 ### 各模块的代码解读
 
-| 工具          | 设计思想                                                     |
-| ------------- | ------------------------------------------------------------ |
-| 远程通信Netty | <https://blog.nowcoder.net/n/9494e37e14954ff9909eb0f06da580ac> |
-| 序列化Kyro    | <https://blog.nowcoder.net/n/8b62c25bd5354b3d9b79ca10cda991ee> |
-|               |                                                              |
-|               |                                                              |
+| 工具              | 设计思想                                                     |
+| ----------------- | ------------------------------------------------------------ |
+| 远程通信Netty     | <https://blog.nowcoder.net/n/9494e37e14954ff9909eb0f06da580ac> |
+| 序列化Kyro        | <https://blog.nowcoder.net/n/8b62c25bd5354b3d9b79ca10cda991ee> |
+| 注册中心zookeeper | <https://blog.nowcoder.net/n/6419ec79f3d045d0a9d20edc83bdc097> |
+|                   |                                                              |
 
