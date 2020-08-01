@@ -1,9 +1,12 @@
 package github.javaguide.registry;
 
+import github.javaguide.loadbalance.LoadBalance;
+import github.javaguide.loadbalance.RandomLoadBalance;
 import github.javaguide.utils.zk.CuratorUtils;
 import lombok.extern.slf4j.Slf4j;
 
 import java.net.InetSocketAddress;
+import java.util.List;
 
 /**
  * 基于 zookeeper 实现服务发现
@@ -14,11 +17,18 @@ import java.net.InetSocketAddress;
 @Slf4j
 public class ZkServiceDiscovery implements ServiceDiscovery {
 
+    private final LoadBalance loadBalance;
+
+    public ZkServiceDiscovery() {
+        this.loadBalance = new RandomLoadBalance();
+    }
+
     @Override
     public InetSocketAddress lookupService(String serviceName) {
         // TODO(Yuan Yangxin):feat: 负载均衡
-        // 这里直接去了第一个找到的服务地址,eg:127.0.0.1:9999
-        String serviceAddress = CuratorUtils.getChildrenNodes(serviceName).get(0);
+        // 这里采用了随机负载均衡的算法，从可选节点中随机选择节点
+        List<String> serviceAddresses = CuratorUtils.getChildrenNodes(serviceName);
+        String serviceAddress = loadBalance.selectServiceAddress(serviceAddresses);
         log.info("成功找到服务地址:{}", serviceAddress);
         String[] socketAddressArray = serviceAddress.split(":");
         String host = socketAddressArray[0];
