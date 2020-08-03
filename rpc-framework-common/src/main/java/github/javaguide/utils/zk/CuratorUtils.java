@@ -107,7 +107,7 @@ public final class CuratorUtils {
     /**
      * 注册监听指定节点。
      *
-     * @param serviceName 服务对象接口名 eg:github.javaguide.HelloService
+     * @param serviceName 服务对象接口名
      */
     private static void registerWatcher(CuratorFramework zkClient, String serviceName) {
         String servicePath = ZK_REGISTER_ROOT_PATH + "/" + serviceName;
