@@ -14,7 +14,9 @@
 
 这种是实现的缺点是不清晰，而且你每次都要调用 ` channel.closeFuture().sync();` 阻塞来手动等待请求返回。
 
-### 使用 CompletableFuture 进行优化
+### 使用 
+
+CompletableFuture 进行优化
 
 我使用 `CompletableFuture` 包装返回结果，对代码进行了重构，重要部分的代码如下：
 
